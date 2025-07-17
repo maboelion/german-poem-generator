@@ -14,19 +14,22 @@
 				<h1>🌼 AI German Poem Generator 🌼</h1>
 			</header>
 			<main>
-				<form id="poem-generator-form">
-					<input
-						type="text"
-						placeholder="Enter your poem keywords"
-						autofocus
-						required
-						autocomplete="off"
-						class="instructions"
-						id="user-instructions"
-					/>
-					<input type="submit" class="submit-button" />
-				</form>
-				<div class="poem" id="poem"></div>
+				<div class="form-container">
+					<form id="poem-generator-form">
+						<input
+							type="text"
+							placeholder="Enter your poem keywords"
+							autofocus
+							required
+							autocomplete="off"
+							class="instructions"
+							id="user-instructions"
+						/>
+						<input type="submit" class="submit-button" />
+					</form>
+					<div class="hint">i.e. Flower, Bremen or Schnitzel</div>
+				</div>
+				<div class="poem hidden" id="poem"></div>
 			</main>
 			<footer>
 				This AI project was coded by
